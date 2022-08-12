@@ -1,0 +1,130 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Style Block</title>
+    </head>
+    <body>
+        
+        <div class="wrapper" id="wrapper">
+
+            <div class="container">
+
+                <div class="container-items">
+
+                    <div class="cont-item-lights">
+                        <div class="container-items-style">
+
+                            <div class="top-left-btn" id="topLeftBtn"></div>
+                            <div class="top-right-btn" id="topRightBtn"></div>
+                            <div class="item" id="item"></div>
+                            <div class="bottom-left-btn" id="bottomLeftBtn"></div>
+                            <div class="bottom-right-btn" id="bottomRightBtn"></div>
+
+                        </div>
+                    </div>
+                    
+                    <div class="container-items-options" id="containerOptions">
+                    
+                        <div class="color">
+
+                            <label for="pick-color">Block color</label>
+                            <input type="color" name="pick-color" id="color" value="#ffffff">
+                            <button id="confirmColor">Ok!</button>
+                        
+                        </div>
+
+                        <div class="block-size">
+
+                            <label for="range">Block size</label>
+                            <div class="num">
+                                <input type="text" name="sizeInt" id="sizeInt" value="200px" disabled>
+                            </div>
+                            <input type="range" name="range" id="range" min="50" max="350" value="">
+                        
+                        </div>
+                        
+                        <div class="custom-shadow">
+
+                            <label for="correct-shadow" id="correctShadowText">Correct shadow</label>
+                            <input type="text" name="correct-shadow" id="correctShadow"
+                                value="0px 0px 38px -2px black">
+                            <label for="correct-shadow" id="X">1 - X + 'px'</label>
+                            <label for="correct-shadow" id="Y">2 - Y + 'px'</label>
+                            <label for="correct-shadow" id="blur">3 - Blur + 'px'</label>
+                            <label for="correct-shadow" id="intensity">4 - Intensity + 'px'</label>
+                            <label for="correct-shadow" id="shadow-color">5 - Color ('black' / #000 / rgb(...))</label>
+                            <button id="confirmCorrectShadow">Ok!</button>
+
+                        </div>
+
+                        <button id="resetBtn">Reset</button>
+
+                    </div>
+
+
+                    <div class="system-color" id="systemColor">
+
+                        <div class="bg-color">
+
+                            <label for="bg-color">Background color</label>
+                            <input type="color" name="bg-color" id="bgColor" value="#eeeeee">
+                            <button id="confirmBgColor">Ok!</button>
+
+                        </div>
+
+                        <div class="font-color">
+
+                            <label for="font-color">Font color</label>
+                            <input type="color" name="font-color" id="fontColor" value="#2c303b">
+                            <button  id="confirmFontColor">Ok!</button>
+
+                        </div>
+
+                        <div class="border-r">
+
+                            <label for="border-r">Border radius</label>
+                            <input type="text" name="border-r-value" id="borderRValue" value="25%" disabled>
+                            <input type="range" name="border-r" id="borderR" min="0" max="50" value="0%">
+                        
+                        </div>
+
+                        <button id="resetBtnBg">Reset</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        <script src="E:\CODES\js-start\projectStyleBlock\js\ALL SCRIPT.js"></script>
+        <!-- <script src="E:\CODES\js-start\projectStyleBlock\js\vars.js"></script>
+            <script src="E:\CODES\js-start\projectStyleBlock\js\lights and block.js"></script>
+            <script src="E:\CODES\js-start\projectStyleBlock\js\bgColor and Shadows.js"></script>
+            <script src="E:\CODES\js-start\projectStyleBlock\js\bg,font,size.js"></script> -->
+    </body>
+
+</html>
+
+
+
+<!-- <div class="shadow-color">
+    <label for="pick-shadow-color">Choose shadow color</label>
+    <input type="color" name="pick-shadow-color" id="shadowColor">
+    <label for="pick-shadow-color" id="confirmShadowColor">Ok!</label>
+</div> -->
+
+
+<!-- <div class="block-size">
+
+    <label for="range">Block size</label>
+    <div class="num">
+        <input type="text" name="sizeInt" id="sizeInt" value="165px" disabled>
+    </div>
+    <input type="range" name="range" id="range" min="30" max="300" value="250px">
+</div> -->
